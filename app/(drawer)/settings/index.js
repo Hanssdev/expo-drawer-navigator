@@ -8,8 +8,10 @@ export default function SettingsPage() {
       <Drawer.Screen
         options={{
           title: "SETTINGS",
+          headerTitleStyle: {color: 'white'},
           headerShown: true,
-          headerLeft: () => <DrawerToggleButton />,
+          headerStyle:{backgroundColor: 'black'},
+          headerLeft: () => <DrawerToggleButton tintColor="white" />,
         }}
       />
       <Text>Settings Page for Drawer</Text>

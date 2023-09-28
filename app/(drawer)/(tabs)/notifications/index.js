@@ -8,9 +8,7 @@ export default function Page() {
     <View style={styles.container}>
       <Drawer.Screen
         options={{
-          title: "Notifications",
-          headerShown: true,
-          headerLeft: () => <DrawerToggleButton />,
+          headerShown: false,
         }}
       />
       <Text>Index Page of Notifications Tab</Text>
