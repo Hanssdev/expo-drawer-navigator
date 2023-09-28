@@ -13,7 +13,7 @@ export default function Page() {
           headerLeft: () => <DrawerToggleButton />,
         }}
       />
-      <Text>Home Page for Drawer</Text>
+      <Text>Index Page of Home Tab</Text>
       <Link href={'/(drawer)/home/next-page'}>
       <Text>Go to next page</Text>
       </Link>

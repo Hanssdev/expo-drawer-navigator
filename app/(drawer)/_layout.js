@@ -6,7 +6,7 @@ export default function DrawerLayout() {
   return (
     <Drawer screenOptions={{ headerShown: false, swipeEdgeWidth: 0 }}>
       <Drawer.Screen
-        name="home"
+        name="(tabs)"
         options={{
           drawerLabel: "Home",
           title: "Home",
